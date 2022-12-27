@@ -963,6 +963,14 @@ const defaultProps = {
 };
 const targetElements = [
     {
+        element: ".hero-img",
+        animation: {
+            delay: 1200,
+            distance: "0px",
+            origin: "bottom"
+        }
+    },
+    {
         element: ".section-title",
         animation: {
             delay: 300,

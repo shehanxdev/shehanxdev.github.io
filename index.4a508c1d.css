@@ -403,8 +403,7 @@ section {
 
 #hero .hero-title {
   text-align: left;
-  margin-bottom: 3.2rem;
-  font-size: calc(2.41667vw + 14.3333px);
+  font-size: calc(2.41667vw + 26.3333px);
   font-weight: 700;
 }
 
@@ -419,24 +418,22 @@ section {
 }
 
 #hero .hero-cta a {
-  font-size: 2.4rem;
+  font-size: calc(.75vw + 12px);
 }
 
-@media (max-width: 37.5em) {
-  #hero .hero-cta a {
-    font-size: 2rem;
-  }
+#hero img {
+  width: calc(5.75vw + 215px);
 }
 
 .hero-subtitle {
   text-align: left;
   margin-bottom: 3.2rem;
-  font-size: 38px;
+  font-size: calc(1.5vw + 16px);
   font-weight: 700;
 }
 
 .hero-subtitle span {
-  font-size: 1vw;
+  font-size: calc(.5vw + 11px);
   font-weight: 100;
 }
 
@@ -445,9 +442,17 @@ section {
     flex-direction: column;
   }
 
+  #hero img {
+    margin-top: 50px;
+  }
+
   #hero .hero-title {
     text-align: center;
     margin-top: 30px;
+  }
+
+  #hero .hero-subtitle {
+    text-align: center;
   }
 
   #hero .hero-cta {
