@@ -461,6 +461,10 @@ section {
   }
 }
 
+li {
+  font-size: 17.5px;
+}
+
 #projects {
   color: #272341;
   background-color: #fff;
