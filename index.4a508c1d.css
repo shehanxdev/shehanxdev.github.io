@@ -557,4 +557,8 @@ li {
   }
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 /*# sourceMappingURL=index.4a508c1d.css.map */
